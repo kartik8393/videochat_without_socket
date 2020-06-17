@@ -1,0 +1,16 @@
+{
+  "name": "videochat_withoutsocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js"
+
+  },
+  "author": "kartik",
+  "license": "ISC",
+  "dependencies": {
+    "budo": "^11.6.3",
+    "simple-peer": "^9.7.2"
+  }
+}
