@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=labe, initial-scale=1.0">
+    <title>Initialiser</title>
+    <style>
+        label {
+            font-size: larger;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Initialiser</h1>
+    <label>Your ID:</label><br>
+    (Step 1. Copy this ID in Non_Initialiser->Other ID textarea, and press connect there.) <br>
+    <textarea  id="yourId"></textarea><br>
+    
+    <label>Other ID:</label><br>
+    (Step 4. Copy Non_Initialiser->Your ID in this Other ID. This will create a P2P connection. Press Connect. Type a message and check.)<br>
+    <textarea  id="otherId"></textarea><br>
+   
+    <button id="connect">Connect</button><br>
+
+    <label>Enter Message</label><br>
+    <textarea  id="yourMessage"></textarea><br>
+    <button id="send">Send</button><br>
+    <pre id="messages"></pre><br>
+
+    <div id="peerDiv" class="embed-responsive embed-responsive-16by9"></div>
+
+    <script src="bundle.js"></script>
+</body>
+</html>

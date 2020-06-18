@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "budo index.js:bundle.js"
-
+    "start": "node server.js",
+    "watch": "npx watchify ./public/index.js -o ./public/bundle.js "
   },
   "author": "kartik",
   "license": "ISC",
   "dependencies": {
-    "budo": "^11.6.3",
-    "simple-peer": "^9.7.2"
+    "simple-peer": "^9.7.2",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "watchify": "^3.11.1"
   }
 }
