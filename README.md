@@ -9,4 +9,5 @@
 7. open localhost:3000/index.html in one tab, localhost:3000/notInit.html
 
 Project Console: https://console.firebase.google.com/project/webrtc-without-socket/overview
-Hosting URL: https://webrtc-without-socket.web.app
+Hosting URL for Initiator: https://webrtc-without-socket.web.app
+Hosting URL for Non Initiator: https://webrtc-without-socket.web.app/notInit.html
