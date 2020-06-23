@@ -8,7 +8,8 @@ var Peer=require('simple-peer')
 var peer=new Peer({
     initiator : false,
     trickle:false,
-    stream: stream
+    stream: stream,
+    config: { iceServers: [{ urls: 'stun:stun.l.google.com:19302' }, { 'urls': 'stun:stun.services.mozilla.com'}, {'urls': 'turn:numb.viagenie.ca','credential': '1212041996','username': 'faakeccnt1@gmail.com'}] },
 })
 
 peer.on('signal',function(data){
